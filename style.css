@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,400;0,800;1,100;1,400;1,800&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.button-container {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 5px 5px 10px 5px lightgrey;
+}
+
+button {
+  font-family: "Barlow", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  color: gray;
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  height: 75px;
+  border: 0px;
+}
+
+.button-container:hover {
+  box-shadow: 0px 0px 0px 0px lightgrey;
+}
+
+button:active {
+  color: lightsteelblue;
+}
