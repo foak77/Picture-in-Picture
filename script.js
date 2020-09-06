@@ -6,7 +6,6 @@ const button = document.getElementById("button");
 async function selectMediaStream() {
   try {
     const mediaStream = await navigator.mediaDevices.getDisplayMedia();
-    console.log(mediaStream);
     videoElement.srcObject = mediaStream;
     videoElement.onloadedmetadata = () => {
       videoElement.play();
